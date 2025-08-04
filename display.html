@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Art Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin: 0;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .art-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 250px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .art-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .art-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .art-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Art Gallery</h1>
+
+  <div class="gallery">
+    <!-- Art Piece 1 -->
+    <div class="art-card">
+      <img src="last.jpg" alt="Art 1">
+      <h3>The Last Supper</h3
+      <p>by Vincent van Gogh</p>
+      <a href="art1.html">View Details</a>
+    </div>
+
+    <!-- Art Piece 2 -->
+    <div class="art-card">
+      <img src="monalisa.jpeg" alt="Art 2">
+      <h3>Mona Lisa</h3>
+      <p>by Leonardo da Vinci</p>
+      <a href="art2.html">View Details</a>
+    </div>
+
+    <!-- Art Piece 3 -->
+    <div class="art-card">
+      <img src="starry.jpeg" alt="Art 3">
+      <h3>The Starry Night</h3>
+      <p>Vincent van Gogh</p>
+      <a href="art3.html">View Details</a>
+    </div>
+
+    <!-- Art Piece 4 -->
+    <div class="art-card">
+      <img src="scream.jpeg" alt="Art 4">
+      <h3>The Scream</h3>
+      <p>by Edvard Munch</p>
+      <a href="art4.html">View Details</a>
+    </div>
+
+    <!-- Art Piece 5 -->
+    <div class="art-card">
+      <img src="girl.jpeg" alt="Art 5">
+      <h3>Girl with a Pearl Earring</h3>
+      <p>by Johannes Vermeer</p>
+      <a href="art5.html">View Details</a>
+    </div>
+  </div>
+
+</body>
+</html>
